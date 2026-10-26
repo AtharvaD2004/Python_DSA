@@ -81,13 +81,13 @@ llist.Traverse(head)
 
 position = int(input("Enter the Position : "))
 
-# if position == 0:
-#     head = llist.specificPosition(position,head)
-#     llist.Traverse(head)
+if position == 0:
+    head = llist.specificPosition(position,head)
+    llist.Traverse(head)
 
-# else:
-#     llist.specificPosition(position,head)
-#     llist.Traverse(head)
+else:
+    llist.specificPosition(position,head)
+    llist.Traverse(head)
 
 if position == 0:
     head = llist.removeElement(position,head)
